@@ -381,6 +381,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/Users/distraub/repos/TheAmazingAudioEngineAB2/Modules,
+					/Users/distraub/repos/TheAmazingAudioEngineAB2/Modules/TPCircularBuffer,
 				);
 				OTHER_CFLAGS = (
 					"-DTPCircularBuffer=AECB",
@@ -421,6 +422,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/Users/distraub/repos/TheAmazingAudioEngineAB2/Modules,
+					/Users/distraub/repos/TheAmazingAudioEngineAB2/Modules/TPCircularBuffer,
 				);
 				OTHER_CFLAGS = (
 					"-DTPCircularBuffer=AECB",

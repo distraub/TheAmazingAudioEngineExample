@@ -69,8 +69,15 @@
     
         [self.audioController addChannels:ABInputChannels];
         [_audioController addInputReceiver:self.myReceiver];
-    }
+        NSLog(@"channels = %@", _audioController.inputReceivers);
+        NSLog(@"Filter Port Connected");
+    }else{
     
+    [_audioController removeInputReceiver:_myReceiver];
+    
+    _myReceiver = NULL;
+    
+    }
 }
 
 @end
